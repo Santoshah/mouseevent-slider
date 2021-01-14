@@ -1,0 +1,30 @@
+*,body {
+    padding: 0;
+    margin: 0;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+#overflow_content {
+    width: 700px;
+    overflow: hidden;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+ul { margin: 0; padding: 0; list-style: none; display: flex;}
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 150px;
+    max-width: 150px;
+    text-align: center;
+    height: 150px;
+    vertical-align: center;
+    align-self: center;
+    background: #ddd;
+}
+
+ul li:nth-child(2n) {
+    background: #efefef;
+}
